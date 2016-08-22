@@ -14,9 +14,8 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/">Home</a></li>
-                <li><a href="/sketchbook.html">Sketchbuch</a></li>
-                <li><a href="/animations.html">Animationen</a></li>
-                <li><a href="/storytelling.html">Storytelling</a></li>
+                <li><a href="/portfolio.html">Portfolio</a></li>
+                <li><a href="/offerings.html">Angebot</a></li>
             </ul>
         </div>
     </div>

@@ -1,0 +1,31 @@
+<div id="sketchbook" class="sketchbook">
+    <article>
+        <p id="date" class="date"></p>
+        <h1 id="title"></h1>
+        <h2 id="subtitle"></h2>
+
+
+        <ul id="tags" class="taglist">
+            Tags:
+        </ul>
+
+        <div class="visualization">
+            <a id="imglink">
+                <img id="img">
+            </a>
+        </div>
+        <div id="description">
+        </div>
+    </article>
+
+
+    <a class="left carousel-control" onclick="prev()" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span></a>
+    </a>
+    <a class="right carousel-control" onclick="next()" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span></a>
+    </a>
+</div>
+

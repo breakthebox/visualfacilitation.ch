@@ -62,6 +62,16 @@ $screen-lg-min: 1200px;
 	transform: rotate($deg);
 }
 
+@mixin user-select($value) {
+	-webkit-touch-callout: $value; /* iOS Safari */
+	-webkit-user-select: $value;   /* Chrome/Safari/Opera */
+	-khtml-user-select: $value;    /* Konqueror */
+	-moz-user-select: $value;      /* Firefox */
+	-ms-user-select: $value;       /* Internet Explorer/Edge */
+  user-select: $value;           /* Non-prefixed version, currently
+  not supported by any browser */
+}
+
 /** global styles */
 body {
 	font-family: 'Lato', sans-serif;
@@ -196,23 +206,36 @@ label {
 
 /** storytelling */
 .storytelling {
-	padding-top: 5em;
+	padding-top: 1em;
 	img {
 		width: 100%;
 	}
 }
 
-/** disclaimer */
-.explainer {
-	border-bottom: 1px solid $fg-lightgreen;
-	margin-bottom: 1em;
+/** portfolio */
+.portfolio-tabs {
+	margin-top: 2em;
+	li.active a {
+		border: 1px solid $fg-green !important;
+		border-bottom: none !important;
+		background: $fg-lightgreen !important;
+		color: $fg-green !important;
+	}
+
+	li a:hover {
+		background-color: $fg-lightgreen !important;
+		color: $fg-green !important;
+	}
+
+	border-bottom: 1px solid $fg-lightgreen !important;
 }
 
 
 /** sketchbook */
 .sketchbook {
 	font-family: 'Shadows Into Light Two', cursive;
-
+	@include user-select(none);
+	cursor: default;
 
 	/** --- paper stack effect */
 	background: #fff;
@@ -339,7 +362,8 @@ label {
 			margin: 1em 0;
 			border: 1px solid #ddd;
 			max-width: 95%;
-			/*max-height: 80vh;*/
+			/*min-height: 100vh;*/
+			min-width: 50%;
 		}
 
 		&:before {
@@ -355,6 +379,25 @@ label {
 			margin: auto;
 			background: rgba(216,230,195,.3);
 			@include box-shadow(0, 1px, 3px, rgba(0, 0, 0, .4));
+		}
+	}
+
+	.carousel-control.left, .carousel-control.right {
+		background-image: none;
+
+	}
+	.carousel-control.left {
+		margin-left: -5em;
+	}
+	.carousel-control.right {
+		margin-right: -5em;
+	}
+}
+
+@media(max-width: $screen-md-min) {
+	.sketchbook {
+		.carousel-control {
+			display: none;
 		}
 	}
 }
