@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<title>Break the Box - Storytelling</title>
+	<!--#include virtual="/snippets/header.shtml" -->
+
+</head>
+
+<body itemscope itemtype="http://schema.org/Organization">
+
+	<!--#include virtual="/snippets/nav.shtml" -->
+
+
+	<div class="bg-light">
+
+		<div class="container">
+
+			<!-- Explanations -->
+			<div class="col-md-10 col-md-offset-1">
+				<h1>Portfolio</h1>
+				<p>
+					Visualisierungen können verschiedene Formen annehmen - <a href="/animations.html">bewegte Bilder</a> oder statische Bilder als Sketches, Mockups, Illustrationen, Graphic Walls, etc. 
+				</p>
+			</div>
+
+			<div class="col-md-10 col-md-offset-1">
+
+				<ul id="myTabs" class="nav nav-tabs portfolio-tabs" role="tablist">
+					<li role="presentation">
+						<a href="/portfolio/sketches.html">Sketches</a>
+					</li>
+					<li role="presentation">
+						<a href="/portfolio/animations.html">Videos</a>
+					</li>
+					<li role="presentation" class="active">
+						<a href="#">Storytelling</a>
+					</li>
+				</ul>
+
+				<!-- Content -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="storytelling">
+						<div class="portfolio storytelling">
+
+							<div class="col-md-6">
+								<img src="/img/storytelling/1_wasistdeinegeschichte.svg" >
+							</div>
+							<div class="col-md-6">
+								<img src="/img/storytelling/2_jederhatetwaszusagen.svg" >
+							</div>
+							<div class="col-md-6">
+								<img src="/img/storytelling/3_abernichtallewissenwie.svg" >
+							</div>
+							<div class="col-md-6">
+								<img src="/img/storytelling/4_wirbringensaufdenpunkt.svg" >
+							</div>
+							<div class="col-md-6">
+								<img src="/img/storytelling/5_undvisualisierenes.svg" >
+							</div>
+							<div class="col-md-6">
+								<img src="/img/storytelling/6_damitkannstdu.svg" >
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--#include virtual="/snippets/footer.shtml" -->
+
+	<!--#include file="/snippets/analytics.shtml" -->
+
+</body>
+</html>
