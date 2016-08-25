@@ -1,22 +1,87 @@
-var videos = [
-	{id: 1, date: 'Januar 2016', title: 'CV Brigitte Hulliger', url: 'https://www.youtube.com/embed/BPxvdJoHwoE?rel=0', tags: ['VideoScribe'], description: 'lorem ipsum dolor sit amet...'},
-];
+var videos = [];
 
-var i = 1;
-
-var show = function(i) {
-	$('#date').text(videos[i-1].date);
-	$('#title').text(videos[i-1].title);
-	$('#video').attr('src', videos[i-1].url);
+$.ajax({
+	dataType: 'json',
+	url: 'videos.json'
+})
+.done(function(data) {
+	videos = data;
+	show();
 	
-	$('#description').html(videos[i-1].description);
+})
+.fail(function() {
+	console.log('an error occured parsing the videos.');
+});
 
-	$('#tags').empty();
-	$('#tags').append('Tags: ');
-	for (idx = 0; idx < videos[i-1].tags.length; idx++) {
-		var tag = videos[i-1].tags[idx];
-		$('#tags').append('<li>' + tag + '</li>');
+$(".tab-content").on("swipeleft",function(event){
+	console.log('swipeleft');
+	next();
+});
+
+$('.tab-content').on('swiperight', function(event) {
+	console.log('swiperight');
+	prev();
+});
+
+function getById(id) {
+	if (id <= videos.length) {
+		return videos[id-1];
+	} else {
+		return videos[0];
 	}
 }
 
-show(1);
+function show() {
+
+	var video;
+	if (window.location.hash) {
+		video = getById(window.location.hash.substr(1));
+	} else {
+		video = this.videos[0];
+	}
+
+	$('#date').text(video.date);
+	$('#title').text(video.title);
+	$('#video').attr('src', video.url);
+	
+	$('#description').html(video.description);
+
+	$('#tags').empty();
+	$('#tags').append('Tags: ');
+	for (idx = 0; idx < video.tags.length; idx++) {
+		var tag = video.tags[idx];
+		$('#tags').append('<li>' + tag + '</li>');
+	}
+
+	if (!window.location.hash) {
+		window.location = '#' + video.id;	
+	}
+}
+
+var next = function() {
+	var idx;
+	
+	idx = window.location.hash.substr(1);
+	if (idx < videos.length) {
+		window.location = '#' + (++idx);
+
+	} else {
+		window.location = '#' + 1;
+	}
+	
+	show();
+};
+
+var prev = function() {
+	var idx;
+	
+	idx = window.location.hash.substr(1);
+	if (idx > 1) {
+		window.location = '#' + (--idx);
+
+	} else {
+		window.location = '#' + this.videos.length;
+	}
+	
+	show();
+};

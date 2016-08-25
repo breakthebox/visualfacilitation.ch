@@ -2,26 +2,20 @@
 <html lang="de">
 <head>
 	<title>Break the Box - Animations</title>
-	<!--#include virtual="/snippets/header.shtml" -->
+	<!--#include virtual="../snippets/header.shtml" -->
 
 </head>
 
 <body itemscope itemtype="http://schema.org/Organization">
 
-	<!--#include virtual="/snippets/nav.shtml" -->
+	<!--#include virtual="../snippets/nav.shtml" -->
 
 
 	<div class="bg-light">
 
 		<div class="container">
 
-			<!-- Explanations -->
-			<div class="col-md-10 col-md-offset-1">
-				<h1>Portfolio</h1>
-				<p>
-					Visualisierungen können verschiedene Formen annehmen - <a href="/animations.html">bewegte Bilder</a> oder statische Bilder als Sketches, Mockups, Illustrationen, Graphic Walls, etc. 
-				</p>
-			</div>
+			<!--#include virtual="portfolio-explainer.shtml" -->
 
 			<div class="col-md-10 col-md-offset-1">
 
@@ -53,30 +47,45 @@
 						</div>
 
 						
-						<div class="col-md-12 cinema">
+						<div class="col-md-12 cinema portfolio">
 							<div class="cinema-video embed-responsive embed-responsive-16by9">
 								<iframe id="video" width="100%"
 								frameborder="0" allowfullscreen></iframe>
 							</div>
 							<div class="cinema-curtain"></div>
+
+							<!-- carousel navigation -->
+							<a class="left carousel-control" onclick="prev()" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span></a>
+							</a>
+							<a class="right carousel-control" onclick="next()" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								<span class="sr-only">Next</span></a>
+							</a>
 						</div>
 
 						<div class="col-md-12" id="description"></div>
 
+
 						
 					</div>
 				</div>
+
+
 			</div>
+
+
 		</div>
 	</div>
 
 	<div class="bg-light cinema-audience"></div>
 
-	<!--#include virtual="/snippets/footer.shtml" -->
+	<!--#include virtual="../snippets/footer.shtml" -->
 
 	<script src="/portfolio/cinema.js"></script>
 
-	<!--#include file="/snippets/analytics.shtml" -->
+	<!--#include file="../snippets/analytics.shtml" -->
 
 </body>
 </html>

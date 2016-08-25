@@ -18,9 +18,9 @@
         </div>
     </div>
 
-    <!--#include virtual="/snippets/footer.shtml" -->
+    <!--#include virtual="snippets/footer.shtml" -->
 
-    <!--#include file="/snippets/analytics.shtml" -->
+    <!--#include file="snippets/analytics.shtml" -->
 
 </body>
 </html>

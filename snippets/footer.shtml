@@ -21,32 +21,45 @@
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <div class="footer-socialmedia light">
-                    <a href="https://github.com/breakthebox" target="_blank"><i class="fa fa-github fa-3x"></i></a>
-                    <a href="https://twitter.com/breakthebox_ch" target="_blank"><i class="fa fa-twitter fa-3x"
-                        aria-hidden="true"></i></a>
-                        <a href="mailto:visual@breakthebox.ch"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
-                        <a href="https://www.instagram.com/breakthebox_ch/"><i class="fa fa-instagram fa-3x"
-                           aria-hidden="true"></i></a>
-                       </div>
-                   </div>
-               </div>
+                    <!-- Youtube Channel -->
+                    <a href="https://www.youtube.com/channel/UC1b1A2dUD8zVEtwah1de2zQ" target="_blank">
+                        <i class="fa fa-youtube fa-3x"></i>
+                    </a>
+
+                    <!-- Twitter -->
+                    <a href="https://twitter.com/breakthebox_ch" target="_blank">
+                        <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+                    </a>
+
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/breakthebox_ch/">
+                        <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+                    </a>
+
+                    <!-- Email -->
+                    <a href="mailto:visual@breakthebox.ch">
+                        <i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+                    </a>
+                 </div>
+             </div>
+         </div>
 
 
-               <div class="row disclaimer">
-                &copy; 2016 Copyright Break the Box GmbH. &nbsp;&dash;&nbsp;<a href="impressum.html">Impressum</a>&nbsp;&dash;&nbsp;<a
-                href="datenschutz.html">Datenschutz</a>&nbsp;&dash;&nbsp;<a
-                href="agb.html">AGB</a>
-            </div>
+         <div class="row disclaimer">
+            &copy; 2016 Copyright Break the Box GmbH. &nbsp;&dash;&nbsp;<a href="impressum.html">Impressum</a>&nbsp;&dash;&nbsp;<a
+            href="datenschutz.html">Datenschutz</a>&nbsp;&dash;&nbsp;<a
+            href="agb.html">AGB</a>
         </div>
-    </footer>
-    
-    <!-- Load additional libraries -->
-    <!-- FontAwesome -->
-    <script src="https://use.fontawesome.com/c1d17adbb2.js"></script>
+    </div>
+</footer>
 
-    <!-- jQuery & jQueryUI -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+<!-- Load additional libraries -->
+<!-- FontAwesome -->
+<script src="https://use.fontawesome.com/c1d17adbb2.js"></script>
 
-    <!-- Bootstrap: Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- jQuery & jQueryUI -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+
+<!-- Bootstrap: Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

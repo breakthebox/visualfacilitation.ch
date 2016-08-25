@@ -15,13 +15,7 @@
 
 		<div class="container">
 
-			<!-- Explanations -->
-			<div class="col-md-10 col-md-offset-1">
-				<h1>Portfolio</h1>
-				<p>
-					Visualisierungen können verschiedene Formen annehmen - <a href="/animations.html">bewegte Bilder</a> oder statische Bilder als Sketches, Mockups, Illustrationen, Graphic Walls, etc. 
-				</p>
-			</div>
+			<!--#include virtual="/portfolio/portfolio-explainer.shtml" -->
 
 			<div class="col-md-10 col-md-offset-1">
 

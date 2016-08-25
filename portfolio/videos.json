@@ -1,0 +1,33 @@
+[
+	{
+		"id": 1,
+		"date": "Januar 2016",
+		"title": "CV Brigitte Hulliger",
+		"url": "https://www.youtube.com/embed/BPxvdJoHwoE?rel=0",
+		"tags": [
+			"VideoScribe"
+		],
+		"description": "<p>Die Visualisierung meines Lebenslaufs als VideoScribe war mein erstes grosses Projekt einer Visualisierung.</p><p>Die Zeichnungen wurden allesamt auf dem iPad Pro mit dem <a href=\"https://www.fiftythree.com/pencil\" target=\"_blank\">53-Pencil</a> gezeichnet und anschliessend mit <a href=\"http://www.videoscribe.co/anywhere\" target=\"_blank\">VideoScribe Anywhere</a> animiert.</p>"
+	},
+	{
+		"id": 2,
+		"date": "Juni 2016",
+		"title": "Portfolio «Break the Box»",
+		"url": "https://www.youtube.com/embed/9qH4YkZzRhY?rel=0",
+		"tags": [
+			"VideoScribe", "Portfolio"
+		],
+		"description": "Das Erklärvideo «Break the Box Portfolio» stellt unsere Firma <a href='www.breakthebox.ch'>Break the Box</a> vor und visualisiert unser Dienstleistungsportfolio anhand von Sketches, Prototypen, Referenzprojekten etc. Das Video wurde erstmals am Eröffnungsapero von Break the Box gezeigt. Es wurde während dem Apéro im Hintergrund an die Wand projiziert. "
+	}, 
+	{
+		"id": 3,
+		"date": "Juni 2016",
+		"title": "How to brew a perfect coffee",
+		"url": "https://www.youtube.com/embed/_Y7kKG-PbJE",
+		"tags": [
+			"VideoScribe", "Erklärvideo"
+		],
+		"description": "Das Video «How to brew a perfect coffee...» dient als Beispiel für ein Erklärvideo, wie sie innert relativ kurzer Zeit von Break the Box erstellt werden können. "
+	}
+
+]
