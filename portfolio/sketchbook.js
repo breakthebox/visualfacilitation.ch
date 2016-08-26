@@ -12,12 +12,10 @@ $.ajax({
 
 
 $(".tab-content").on("swipeleft",function(event){
-	console.log('swipeleft');
 	next();
 });
 
 $('.tab-content').on('swiperight', function(event) {
-	console.log('swiperight');
 	prev();
 });
 

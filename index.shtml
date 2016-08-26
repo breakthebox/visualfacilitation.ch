@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
     <title>Visual Facilitation @ Break the Box</title>
-    <!--#include virtual="/snippets/header.html" -->
+    <!--#include virtual="/snippets/header.shtml" -->
 </head>
 
 <body itemscope itemtype="http://schema.org/Organization">
@@ -18,9 +18,9 @@
         </div>
     </div>
 
-    <!--#include virtual="snippets/footer.shtml" -->
+    <!--#include virtual="/snippets/footer.shtml" -->
 
-    <!--#include file="snippets/analytics.shtml" -->
+    <!--#include virtual="/snippets/analytics.shtml" -->
 
 </body>
 </html>

@@ -2,20 +2,20 @@
 <html lang="de">
 <head>
 	<title>Break the Box - Sketches</title>
-	<!--#include virtual="../snippets/header.shtml" -->
+	<!--#include virtual="/snippets/header.shtml" -->
 
 </head>
 
 <body itemscope itemtype="http://schema.org/Organization">
 
-	<!--#include virtual="../snippets/nav.shtml" -->
+	<!--#include virtual="/snippets/nav.shtml" -->
 
 
 	<div class="bg-light">
 
 		<div class="container">
 
-			<!--#include virtual="portfolio-explainer.shtml" -->
+			<!--#include virtual="/portfolio/portfolio-explainer.shtml" -->
 
 			<div class="col-md-10 col-md-offset-1">
 
@@ -70,11 +70,11 @@
 		</div>
 	</div>
 
-	<!--#include virtual="../snippets/footer.shtml" -->
+	<!--#include virtual="/snippets/footer.shtml" -->
 
 	<script src="/portfolio/sketchbook.js"></script>
 
-	<!--#include file="../snippets/analytics.shtml" -->
+	<!--#include virtual="/snippets/analytics.shtml" -->
 
 </body>
 </html>

@@ -18,7 +18,7 @@
 
 	<!--#include virtual="snippets/footer.shtml" -->
 
-	<!--#include file="snippets/analytics.shtml" -->
+	<!--#include virtual="/snippets/analytics.shtml" -->
 
 </body>
 </html>

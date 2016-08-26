@@ -4,19 +4,22 @@
     
     <!-- The above 3 meta tags *must* come first in the head. any other head content must come after there tags -->
     <meta name="google-site-verification" content="1NklITmeqzefqyqe8xK86-ERCk4N5acRinNir0lys4Y" />
-    <meta name="description" content="Visual Facilitation at Break the Box GmbH">
+    <meta name="description" content="Produktinnovation: Interdisziplinär, pragmatisch & nachhaltig. Mit Visual Facilitation erarbeiten wir ihren ">
     <meta name="keywords" content="break the box, visual facilitation, explainer video, erklärvideo, sketchnotes, workshops, requirements engineering" />
 
-    <link rel="icon" href="favicon.png">
+    <link rel="icon" href="/favicon.png">
 
     <!-- Styles -->
     <link rel="stylesheet" href="/styles/styles.css">
 
     <!-- 3rd party -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 
     <!-- fonts -->
     <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+    
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
 
