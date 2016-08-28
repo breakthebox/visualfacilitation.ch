@@ -6,10 +6,19 @@ $fg-dark: #262626;
 $fg-light: white;
 $fg-faded: #686868;
 
-$fg-violet: #50425c;
-$fg-lightviolet: #825e6f;
-$fg-green: #74b587;
+$fg-title: #1b344d; // violet: #50425c;
+$fg-subtitle: #527a98; // light-violet: #825e6f;
+
+$link-color: #527a98; 
+
+$tabs-color: #1b344d;
+$tabs-bg: #527a98;
+
+/** portfolio sketches */
+/*$
+fg-green: #74b587;
 $fg-lightgreen: #d8e6c3;
+*/
 
 $link-hover: #527a98;
 
@@ -84,12 +93,16 @@ body {
 		color: $fg-dark;
 
 		a {
-			color: $fg-green;
+			color: $link-color;
 			&:hover {
 				text-decoration: none;
-				color: $fg-violet;
+				color: $fg-title;
 			}
 		}
+	}
+
+	.bg-blue {
+		background-color: $bg-medium;
 	}
 
 	.bg-dark {
@@ -132,7 +145,7 @@ body {
 /** typography */
 h1 {
 	font-size: 2.5em;
-	color: $fg-violet;
+	color: $fg-title;
 }
 h2 {
 	font-size: 2em;
@@ -216,18 +229,19 @@ label {
 .portfolio-tabs {
 	margin-top: 2em;
 	li.active a {
-		border: 1px solid $fg-green !important;
+		border: 1px solid $tabs-color !important;
 		border-bottom: none !important;
-		background: $fg-lightgreen !important;
-		color: $fg-green !important;
+		background: $tabs-bg !important;
+		color: white !important;
+		opacity: .8;
 	}
 
 	li a:hover {
-		background-color: $fg-lightgreen !important;
-		color: $fg-green !important;
+		background-color: $tabs-bg !important;
+		color: $tabs-color !important;
 	}
 
-	border-bottom: 1px solid $fg-lightgreen !important;
+	border-bottom: 1px solid $tabs-bg !important;
 }
 
 
@@ -254,7 +268,7 @@ label {
 	h1 {
 		text-align: center;
 		font-weight: bold;
-		color: $fg-violet;
+		color: $fg-title;
 		&:before {
 			content: "* ";
 		}
@@ -264,7 +278,7 @@ label {
 	}
 
 	h2 {
-		color: $fg-lightviolet;
+		color: $fg-subtitle;
 		text-align: center;
 		font-size: 1.5em;
 		margin-left: 1em;
@@ -326,7 +340,7 @@ label {
 		-moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
 		box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
 
-		border: 1px solid $fg-lightgreen;
+		border: 1px solid rgba(82, 122, 152, .5);
 
 		img {
 			background-color: white;
@@ -348,7 +362,7 @@ label {
 			position: relative;
 			top: -20px;
 			margin: auto;
-			background: rgba(216,230,195,.3);
+			background: rgba(245, 238, 214,.3);
 			@include box-shadow(0, 1px, 3px, rgba(0, 0, 0, .4));
 		}
 	}
@@ -364,7 +378,7 @@ label {
 		padding-top: .5em;
 		
 		li {
-			color: $fg-green;
+			color: $link-color;
 			display: inline;
 			&:before {
 				content: "#";
@@ -383,7 +397,7 @@ label {
 	}
 
 	a {
-		color: $fg-green;
+		color: $link-color;
 	}
 
 	.carousel-control.left, .carousel-control.right {
@@ -412,7 +426,10 @@ label {
 		line-height: 25px;
 	}
 
+	vertical-align: middle;
+
 	h1 {
+
 		font-weight: bold;
 		font-size: 2.3em;
 

@@ -34,7 +34,7 @@
 				<!-- Content -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="videos">
-						<div class="portfolio cinema-banner ">
+						<div class="portfolio cinema-banner">
 
 							<h1 id="title"></h1>
 							<h2 id="subtitle"></h2>
@@ -85,7 +85,7 @@
 
 	<script src="/portfolio/cinema.js"></script>
 
-	<!--#include file="../snippets/analytics.shtml" -->
+	<!--#include virtual="../snippets/analytics.shtml" -->
 
 </body>
 </html>
